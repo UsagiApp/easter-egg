@@ -4,14 +4,20 @@ This build contains special events, including the ability to dynamically change 
 
 ## Requirements
 
-- Android Studio or IntelliJ IDEA (Community Edition is enough)
-- Android SDK 35 or later (if not using IDE)
-- Java 11 or later is required
+- Android Studio Panda 4 or later (IDE)
+- Android SDK 36 or later is required
+- Java 17 or later is required
+
+## Note
+
+- The event is triggered when users attempt to interact with the main nav, with a specific number of clicks.
+- Use `activity-alias` if want to dynamically change app icon in Android manifest (this may require a restart).
+- This is a prerequisite for developing a feature that allows changing app icon in the future.
 
 ## Credits
 
 - Thanks to [MrBojler](https://www.youtube.com/@mrbojler007) for providing [this reference guide](https://www.youtube.com/watch?v=5QXYPWz39uw) on YouTube with [this repository](https://github.com/tarik-git/ChangeIconYT/tree/master).
-- Thanks to [gonodono](https://github.com/gonodono) for providing this reference repository on GitHub.
+- Thanks to [gonodono](https://github.com/gonodono) for providing [this reference repository](https://github.com/gonodono/app-icon-change-demo) on GitHub.
 
 ### License
 
